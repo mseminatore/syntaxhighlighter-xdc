@@ -2,7 +2,7 @@
 /*
 Plugin Name: SyntaxHighlighter Evolved: XDC Brush
 Description: Adds support for the Xilinx Design Constraint Files to the SyntaxHighlighter Evolved plugin.
-Author: Mark seminatore
+Author: Mark Seminatore
 Version: 1.0.0
 Author URI: https://fpgacoding.com
 */
