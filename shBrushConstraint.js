@@ -6,7 +6,7 @@
 	function Brush()
 	{
 	
-		var keywords =	'set_property get_ports create_clock name ';
+		var keywords =	'set_property get_ports create_clock name current_design';
 					
 		this.regexList = [
 			{ regex: /##.*$/gm, 										css: 'comments' },			// one line comments
