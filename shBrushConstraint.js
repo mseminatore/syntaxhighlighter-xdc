@@ -18,7 +18,7 @@
 	};
 
 	Brush.prototype	= new SyntaxHighlighter.Highlighter();
-	Brush.aliases	= ['xdc', 'XDC'];
+	Brush.aliases	= ['xdc'];
 
 	SyntaxHighlighter.brushes.XDC = Brush;
 

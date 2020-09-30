@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: SyntaxHighlighter Evolved: XDC Brush
-Description: Adds support for the Xilinx Design Constraint Files to the SyntaxHighlighter Evolved plugin.
+Plugin Name: Add XDC Brush to SyntaxHighlighter Evolved
+Description: Adds support for the Xilinx Design Constraint (XDC) Files to the SyntaxHighlighter Evolved plugin.
 Author: Mark seminatore
-Version: 1.0.0
+Version: 1.0.1
 Author URI: https://fpgacoding.com
 */
  
@@ -28,7 +28,7 @@ function syntaxhighlighter_xdc_addlang( $brushes ) {
 
 // Filter SyntaxHighlighter Evolved's name array
 function syntaxhighlighter_xdc_addname( $names ) {
-   $names['xdc'] = 'xdc';
+   $names['xdc'] = 'XDC';
 
    return $names;
 }
