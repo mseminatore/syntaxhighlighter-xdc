@@ -16,7 +16,7 @@ add_filter( 'syntaxhighlighter_brush_names', 'syntaxhighlighter_xdc_addname' );
 
 // Register the brush file with WordPress
 function syntaxhighlighter_xdc_regscript() {
-    wp_register_script( 'syntaxhighlighter-brush-xdc', plugins_url( 'shBrushConstraint.js', __FILE__ ), array('syntaxhighlighter-core'), '1.0.0', true );
+    wp_register_script( 'syntaxhighlighter-brush-xdc', plugins_url( 'shBrushConstraint.js', __FILE__ ), array('syntaxhighlighter-core'), '1.0.1', true );
 }
  
 // Filter SyntaxHighlighter Evolved's language array
